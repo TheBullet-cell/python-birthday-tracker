@@ -18,6 +18,7 @@ Run the scirpt:
 python birthday_tracker.py
 
 Code:
+```python
 birthdays = {"Mark": "1990-09-10", "John": "2000-03-15", "Lora": "2001-05-10"}
 
 while True:
@@ -35,6 +36,7 @@ while True:
         bday = input()
         birthdays[name] = bday
         print("Birthday database updated.")
+```
 
 🧠 What I Learned
 Dictionaries: How to store and retrieve data using keys.
