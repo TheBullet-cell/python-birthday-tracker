@@ -14,5 +14,41 @@ A simple Birthday Tracker built in Python. This project helps beginners understa
 2. Clone this repository:
    ```bash
    git clone https://github.com/ZeroBullet/birthday-tracker.git
+Run the scirpt:
+python birthday_tracker.py
 
+Code:
+birthdays = {"Mark": "1990-09-10", "John": "2000-03-15", "Lora": "2001-05-10"}
+
+while True:
+    print("Enter a name: ")
+    name = input()
+    
+    if name == "":
+        break
+
+    if name in birthdays:
+        print(birthdays[name] + " is the birthday of " + name)
+    else:
+        print("I don't have birthday information for " + name)
+        print("What is their birthday?")
+        bday = input()
+        birthdays[name] = bday
+        print("Birthday database updated.")
+
+🧠 What I Learned
+Dictionaries: How to store and retrieve data using keys.
+
+While Loops: How to keep the program running until the user exits.
+
+If/Else Conditions: How to check if data exists and act accordingly.
+
+User Input: How to get and use input from the user.
+
+🤝 Contributing
+Feel free to fork this repository and improve it!
+
+
+📺 Social
+Youtube: @ZeroBulletSecurity
 
